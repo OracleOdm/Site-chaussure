@@ -1,5 +1,10 @@
 body {
     background-color: rgb(199, 199, 199);
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
 }
 
 .topbar {
@@ -20,7 +25,6 @@ small {
 header {
     background-color: #f5d3f5;
     border: solid;
-    box-shadow: 0px 4px 10px 0px;
 }
 
 .container1 img {
@@ -123,6 +127,7 @@ main {
     left: 0;
     z-index: 10;
     margin-left: 2%;
+    margin-top: 2%;
 
 }
 
@@ -175,6 +180,7 @@ main {
     justify-content: space-between;
     width: 80%;
     margin-bottom: 30px;
+    margin: 20px;
 }
 
 #new {
@@ -183,6 +189,7 @@ main {
     background-color: #ffffff;
     align-items: center;
     box-shadow: 0px 4px 10px 0px;
+    padding-top: 20px;
 
 }
 
@@ -197,6 +204,7 @@ main {
     align-items: center;
     background-color: white;
     box-shadow: 0px 4px 10px 0px;
+    padding-top: 20px;
 }
 
 #best img:hover {
@@ -210,6 +218,7 @@ main {
     background-color: #ffffff;
     align-items: center;
     box-shadow: 0px 4px 10px 0px;
+    padding-top: 20px;
 }
 
 #crush img:hover {
@@ -224,6 +233,7 @@ main {
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 #best h2 {
@@ -233,6 +243,7 @@ main {
     width: 80%;
     text-align: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 #crush h2 {
@@ -242,6 +253,7 @@ main {
     width: 80%;
     text-align: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 #news img {
@@ -378,6 +390,12 @@ footer {
 
     .right-clear {
         display: none;
+    }
+
+    header {
+        border-bottom: solid;
+        border-right: none;
+        border-left: none;
     }
 
     nav {
